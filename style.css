@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    margin-left: 1.5%;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --cor-titulo: #FFFFFF;
+    --cor-cinza: #C0C0C0;
+    --cor-botao: #167BF7;
+    --cor-fundo: #00030C;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: white;
+}
+
+.classe-section {
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+
+.classe-section-monitor-celular {
+    position: relative;
+    align-items: center;
+    margin: 0 0em;
+}
+
+.classe-img-monitor-monitor {
+    position: relative;
+    bottom: -180px;
+    width: 90%;
+}
+
+.classe-celular-monitor {
+    position: relative;
+    bottom: -250px;
+    left: -470px;
+    width: 25%;
+}
+
+.classe-h1-monitor, .classe-paragrafo-celular {
+    position: relative;
+    left: 600px;
+    top: -200px;
+}
+
+.classe-h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    height: 100vh;
+   
+}
+
+.botao-alura {
+    display: block;
+    border-radius: 5px;
+    background-color: var(--cor-botao);
+    padding: 1em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.classe-div {
+    margin: 0 6em;
+}
+
+.botao-baixo {
+    background-color: transparent;
+    border: 2px solid var(--cor-titulo);
+}
+
+.paragrafo-alertando {
+font-size: 12px;
+color: var(--cor-cinza);
+}
+
+.classe-img {
+    margin: 1em 0 2em 0;
+}
+
+.classe-section-2 {
+    align-items: center;
+    margin: 0 12em;
+}
+
+.classe-h1-2 {
+    font-size: 48px;
+    font-weight: 600;
+    padding: 8px;
+    color: var(--cor-titulo);
+    margin-bottom: 0.5em;
+}
+
+.classe-paragrafo-monitor {
+    color: var(--cor-cinza);
+    font-size: 20px;
+}
+
+.classe-botao-linguas {
+display: inline-block;
+margin-top: 1em;
+}
+
+.classe-div {
+padding: -2em;
+}
+
+.classe-img-notebook {
+    margin-right: 90%;
+}
+
+.div-classe-imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    padding: 5em;
+}
+
+.classe-imagem-eletronicos {
+    margin-bottom: 0.5em;
+}
+
+.classe-imagem-termos {
+margin-top: 15em;
+}
